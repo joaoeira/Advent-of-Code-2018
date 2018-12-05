@@ -36,7 +36,7 @@ def unionDiff(array1,array2):
     # and we can discard that pair of arrays for comparison
      
      
-    if len(set(array1) | set(array2)) - len(array1) >= 2 or len(set(array1) | set(array2)) - len(array2) >= 2
+    if len(set(array1) | set(array2)) - len(array1) >= 2 or len(set(array1) | set(array2)) - len(array2) >= 2:
         return False
     else:
         return True
